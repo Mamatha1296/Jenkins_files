@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Trigger') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World !!!'
             }
         }
     }
