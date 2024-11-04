@@ -5,7 +5,7 @@ pipeline {
 		stage ('Stage-1'){
 			agent {label 'master'} 
 			steps {
-				sh 'touch master1.txt'
+				sh 'touch master.txt'
 			}
 		}
 		
